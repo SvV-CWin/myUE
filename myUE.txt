@@ -1,0 +1,85 @@
+My Universal Extractor:
+-----------------------
+MyUE is a command line program that can be used to extract the contents out of a lot of archive types and installer packages.
+
+Readme:
+-------
+My Universal Extractor is inspired by Universal Extractor from Jared Breland (http://www.legroom.net/software/uniextract).
+This is a simplified (and updated) command line version.
+
+Installation is simple: start myUE.exe as administrator and follow the instructions.
+MyUE will then write one (or two) registry key(s) so that a menu item is added to every context menu when right clicking a file (or directory).
+
+The program can (of course) be run from the command line. For the syntaxis: run the program without parameters.
+
+When you select "Process with myUE", myUE will determine the file type and extract its contents to a subfolder or give other options.
+
+Sources for binaries and docs:
+------------------------------
+izarc2go (v4.2) and izarc command line add-on (v1.1): http://www.izarc.org/download.html
+:: 7za.dll, apr.dll, arc.izp, bga32.dll, cabinet.dll, izarc2go.exe, settings.ini, tar32.dll, unace2.dll, ungca32.dll, unrar.dll, yz1.dll, folder 'sfxs'
+:: izarce.exe, unacev2.dll, unrar3.dll
+trid (v2.24) and definitions (15/05/16): http://www.mark0.net/soft-trid-e.html
+:: trid.exe, triddefs.trd
+convertlit (v1.8): http://www.convertlit.com/download.php
+:: clit.exe
+cmdtotal (v2.02): http://www.totalcmd.net/plugring/cmdtotal.html
+:: cmdtotal.exe
+dbx plugin (v1.2): http://www.totalcmd.net/plugring/dbx.html
+:: dbxplug.wcx
+extractmht (v1.0): http://www.legroom.net/software/extractmht
+:: extractmht.exe
+helpdeco (v2.1): http://www.helpmaster.info/hlp-developmentaids-helpdeco.htm, mirror: http://www.helpscribble.com/decompiler.html
+:: helpdeco.exe
+chm decoder (v2.2): http://www.gridinsoft.com/chm.php, mirror: *.rackcdn.com
+:: chmdecoder.exe
+KGB Archiver console (2 beta 1): http://www.sourceforge.net/projects/kgbarchiver
+:: kgb2_console.exe, paq*.dll
+lzop (v1.03): http://www.lzop.org
+:: lzop.exe
+nbhextract (v1.0): http://forum.xda-developers.com/showthread.php?t=289830
+:: nbhextract.exe
+peazip: http://www.peazip.org/download-portable-windows.html (! no longer supported, I cannot find a way to extract from command line)
+unuharc (v0.6b): http://www.klaimsoft.com/winuha/download.php
+:: unuharc06.exe
+ultimate packer for executables (v3.91): http://upx.sourceforge.net
+:: upx.exe
+aspackdie (1.41): https://www.aldeid.com/wiki/AspackDie
+:: aspackdie.exe, forcelibrary.dll
+caspr (v1.100): http://reversing.kulichki.com/files/unpack/unpack.htm
+:: caspr.exe, caspr.ini, caspr1.dll, caspr2.dll
+unpacker_pecompact (1.2.1.0): http://www.aoreteam.com/vb/showthread.php?t=10417&langid=1
+:: unlocker_pecompact.exe
+inno setup unpacker (v0.46): http://innounp.sourceforge.net
+:: innounp.exe
+setup factory unpacker: http://www.sourceforge.net/projects/innounp/files/other%20stuff/Setup%20Factory%20unpacker
+:: suf.exe
+installexplorer plugin (v0.9.2): http://www.totalcmd.net/plugring/InstallExplorer.html
+:: instexpl.dll, instexpl.wcx, folder 'unp'
+msi unpacker from jsware (april 2014): http://www.jsware.net/jsware/msicode.php5 (possible alternative: http://lessmsi.activescott.com)
+:: jsmsix.exe
+installshield (by one exe-file) unpacker (v0.99): http://www.woodmann.com/collaborative/tools/index.php/InstallShield_(by_one_exe-file)_Unpacker (! is not used by the program (see comment in source code))
+:: isxunpack.exe
+ishield plugin (v0.9.1): http://www.totalcmd.net/plugring/IShield.html
+:: ishield.wcx, zd50149.dll, zd51145.dll
+wcx_fb2 plugin (v1.0): http://www.totalcmd.net/plugring/wcxfb2.html
+:: wcx_fb2.wcx
+game archive unpacker pro plugin (v0.6.0.3): http://www.totalcmd.net/plugring/gaup.html
+:: gaup_pro.wcx
+peid (v0.95): http://www.peid.info (https://www.aldeid.com/wiki/PEiD)	(! dropped in favor of exeinfo pe)
+:: peid.exe, userdb.txt
+7-zip (v16.02): http://www.7-zip.org/download.html
+:: 7z.dll, 7z.exe
+exeinfo pe (ver.0.0.4.1): http://exeinfo.atwebpages.com
+:: exeinfope.exe, ext_detecor.dll, userdb.txt
+gif2frames (2/10/2011): http://www.umbrellastudio.com/tools/extract-frames-from-an-animated-gif
+:: gif2frames.exe
+balabolka (text extract utility) (v1.26): http://www.cross-plus-a.com/btext.htm
+:: balabolka_text.exe
+xpdf (v3.03): http://www.foolabs.com/xpdf/download.html
+:: pdfdetach.exe, pdfimages.exe
+office image extraction wizard (v4.1): http://www.rlvision.com/downloads.asp
+:: comctl32.ocx, officewiz.exe, officewiz.exe.manifest, settings.ini, portable, folder 'swftools'
+binary(doc,xls,ppt) to openxmltranslator (Phase III Milestone 5): http://www.sourceforge.net/projects/b2xtranslator/files/b2xtranslator
+:: dialogika.*.dll, doc2x.exe, libzlibwapi.so, ppt2x.exe, presentationmlmapping.dll, xls2x.exe, zlibwapi.dll
+some binaries are taken from http://www.legroom.net/software/uniextract
